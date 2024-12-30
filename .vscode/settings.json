@@ -1,11 +1,28 @@
 {
-    "cSpell.words": [
-        "NAND",
-        "pylab",
-        "ylim"
-    ],
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
-    }
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+
+  "python.analysis.typeCheckingMode": "standard",
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "cSpell.words": ["NAND", "pylab", "ylim"],
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  }
 }
