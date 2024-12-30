@@ -1,7 +1,7 @@
-
-.pytest_cache
-.ruff_cache
-__pycache__
-
-
-# *.env
+.DS_Store
+*~
+*.gz
+*.pyc
+__pycache__/
+mnist.pkl
+.ipynb_checkpoints
