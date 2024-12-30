@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
-        "NAND"
+        "NAND",
+        "pylab",
+        "ylim"
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
