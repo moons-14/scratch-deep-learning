@@ -20,7 +20,6 @@ iter_per_epoch = max(train_size / batch_size, 1)
 network = TwoLayerNet(input_size=784, hidden_size=50, output_size=10)
 
 for i in range(iters_num):
-    print(f"iteration {i}")
     batch_mask = np.random.choice(train_size, batch_size)
     x_batch = x_train[batch_mask]
     t_batch = t_train[batch_mask]
