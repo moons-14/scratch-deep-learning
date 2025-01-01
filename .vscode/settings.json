@@ -16,7 +16,7 @@
   "python.testing.pytestArgs": ["tests"],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "cSpell.words": ["fromarray", "NAND", "pylab", "ylim"],
+  "cSpell.words": ["backprop", "dout", "fromarray", "NAND", "pylab", "ylim"],
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
